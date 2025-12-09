@@ -10,7 +10,7 @@
 import axios from "axios";
 
 // Override default axios instance with custom interceptor
-axios.defaults.baseURL = "http://localhost:4441";
+axios.defaults.baseURL = import.meta.env.VITE_API_URL;;
 
 axios.interceptors.request.use(config => {
   const token = localStorage.getItem("token");
