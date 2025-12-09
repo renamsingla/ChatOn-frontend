@@ -16,7 +16,7 @@ export const DashboardProvider= ({children})=>{
     useEffect(()=>{
         if(!token) return;
         //this is the bundle that server send to frontend, and to connect we ned to call io
-        const socket= io("http://localhost:4441",{
+        const socket= io(import.meta.env.VITE_API_URL,{
          auth:{
                  token: `${auth.token}`
                }
