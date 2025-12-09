@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import useApp from '../context/DashboardProvider';
-import useAuth from '../context/authProvider';
+import useAuth from '../context/AuthProvider';
 import { useNavigate } from 'react-router';
 import axios from "../utils/axios"
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Navigate, Route, Routes } from 'react-router'
 import Signup from './pages/Signup'
 import Login from './pages/Login'
-import useAuth from './context/authProvider'
+import useAuth from './context/AuthProvider'
 import { DashboardProvider } from './context/DashboardProvider'
 import Chat from './pages/Chat'
 

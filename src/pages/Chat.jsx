@@ -1,5 +1,5 @@
 import React, {useState } from 'react'
-import useAuth from '../context/authProvider';
+import useAuth from '../context/AuthProvider';
 import {useNavigate } from 'react-router';
 import useApp from '../context/DashboardProvider';
 import DirectConvo from './DirectConvo';

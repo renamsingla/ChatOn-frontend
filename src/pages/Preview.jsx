@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import useAuth from '../context/authProvider';
+import useAuth from '../context/AuthProvider';
 import axios from "../utils/axios"
 
 const Preview = ({name,receiverId, setShowPreview}) => {

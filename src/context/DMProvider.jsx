@@ -1,5 +1,5 @@
 import React , { createContext, useContext, useEffect, useRef, useState } from "react"
-import useAuth from "./authProvider";
+import useAuth from "./AuthProvider";
 import useApp from "./DashboardProvider";
 import DMApi from "../api/DMapi";
 

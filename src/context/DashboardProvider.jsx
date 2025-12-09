@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react"
 import { io } from 'socket.io-client'
-import useAuth from "./authProvider";
+import useAuth from "./AuthProvider";
 import auth from '../lib/auth'
 import axios from "../utils/axios"
 

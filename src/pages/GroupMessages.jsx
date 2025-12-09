@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import useGroup from '../context/GroupProvider'
 import useApp from '../context/DashboardProvider';
-import useAuth from '../context/authProvider';
+import useAuth from '../context/AuthProvider';
 import PreviewGroup from './PreviewGroup';
 
 const GroupMessages = () => {

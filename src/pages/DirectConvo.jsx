@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import useAuth from '../context/authProvider';
+import useAuth from '../context/AuthProvider';
 import useApp from '../context/DashboardProvider';
 import useDM from '../context/DMProvider';
 import axios from 'axios';

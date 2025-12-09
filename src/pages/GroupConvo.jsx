@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import useApp from '../context/DashboardProvider';
-import useAuth from '../context/authProvider';
+import useAuth from '../context/AuthProvider';
 import useGroup from '../context/GroupProvider'
 
 const GroupConvo = () => {

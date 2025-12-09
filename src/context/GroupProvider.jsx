@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useRef, useEffect } from "react"
-import useAuth from "./authProvider";
+import useAuth from "./AuthProvider";
 import useApp from "./DashboardProvider";
 import Groupapi from "../api/Groupapi";
 

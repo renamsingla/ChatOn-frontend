@@ -1,40 +1,6 @@
-// import React, { useRef } from 'react'
-// import { useNavigate } from 'react-router';
-// import useAuth from '../context/authProvider';
-// import auth from '../lib/auth'
-
-// const Login = () => {
-//     const navigate= useNavigate();
-//     const emailRef= useRef();
-//     const passwordRef= useRef();
-//     const {login}= useAuth();
-
-//     async function helper(e){
-//         e.preventDefault();
-//         const email= emailRef.current.value;
-//         const password= passwordRef.current.value
-//         const data= await login({email, password});
-//         auth.token= data.token;
-//         auth.user= data.user;
-//         // console.log(isLoggedin)
-//         navigate('/dashboard')
-//     }
-//   return (
-//     <>
-//     <form onSubmit={helper}>
-//         <input ref={emailRef} type="text" placeholder='enter email' />
-//         <input ref={passwordRef} type="text" placeholder='enter password' />
-//         <button>login</button>
-//     </form>
-//     not a user- <button onClick={()=>navigate('/signup')}>signup</button>
-//     </>
-//   )
-// }
-
-// export default Login
 import React, { useRef } from 'react'
 import { useNavigate } from 'react-router';
-import useAuth from '../context/authProvider';
+import useAuth from '../context/AuthProvider';
 import auth from '../lib/auth';
 import './Login.css'
 
